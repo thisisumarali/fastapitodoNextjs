@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "/fastapi_neon/main.py",
+        "src": "app/api.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/fastapi_neon/main.py"
+        "dest": "app/api.py"
       }
     ]
   }
