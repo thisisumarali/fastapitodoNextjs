@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "pyproject.toml",
+        "src": "/fastapi_neon/main.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/fastapi_neon/api.py"
+        "dest": "/fastapi_neon/main.py"
       }
     ]
   }
