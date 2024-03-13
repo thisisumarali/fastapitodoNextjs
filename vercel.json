@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "fastapi_neon/main.py"
+        "dest": "main.py"
       }
     ]
   }
