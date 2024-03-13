@@ -45,3 +45,4 @@ poetry install
 ### 4. Deploy to AWS App Runner
 
 Follow along in the blog post to configure AWS SSM Parameter Store and deploy the FastAPI to AWS App Runner.
+"# fastapitodoNextjs" 
